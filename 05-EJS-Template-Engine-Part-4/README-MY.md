@@ -7,13 +7,19 @@
 - create folder 04-Cookie-Session-Part-3
 - go to terminal
     - cd 05-EJS-Template-Engine-Part-4
-    - $ npm install nodejs --save
-    - $ npm i express --save
-    - $ npm i -g nodemon --save
+    - $ npm install nodejs 
+    - $ npm i express 
+    - $ npm i -g nodemon 
     - $ npm install body-parser
-    - $ npm i cookie-parser --save
-    - $ npm i cookie-session --save
+    - $ npm i cookie-parser 
+    - $ npm i cookie-session 
     - $ npm install ejs
+
+- open package.json file and add following lines:
+    ````
+    "scripts": {
+    "start": "nodemon express/test-server.js" },
+    ````
 
     - $ create folder views
         - $ create file showdepts.ejs
@@ -31,7 +37,7 @@
 - run the pgm
     - on terminal
         - $ cd express
-        - $ nodemon test-server.js
+        - $ npm start
             - This shows:
 
                 ```` Server started and listning on port 3000} ````
